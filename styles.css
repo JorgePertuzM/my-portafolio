@@ -1,0 +1,136 @@
+
+/*styles.css*/
+:root {
+    /* Color Variables */
+    --primary-blue: #0056b3;
+    --dark-blue-hover: #004080;
+    --dark-gray: #333;
+    --medium-gray: #666;
+    --light-gray: #F0F0F0;
+    --footer-dark: #343a40;
+    
+    /* Red Shades */
+    --primary-red: #c0392b; /* Tonalidad de rojo principal */
+    --secondary-red: #e74c3c; /* Tonalidad de rojo secundaria */
+
+    /* Font Size Variables */
+    --font-large: 2.5rem;
+    --font-medium: 1.8rem;
+    --font-small: 1.2rem;
+
+    /* Font Family */
+    --font-family: 'Arial', sans-serif;
+}
+
+/* General Styles */
+body {
+    font-family: var(--font-family);
+    color: var(--dark-gray);
+}
+
+h1, h2 {
+    color: var(--primary-blue);
+}
+
+h2 {
+    font-size: var(--font-large);
+    font-weight: bold;
+}
+
+h3 {
+    color: var(--dark-gray);
+    font-size: var(--font-medium);
+    margin-bottom: 20px;
+}
+
+h5 {
+    color: var(--dark-gray);
+    font-size: var(--font-small);
+    margin-bottom: 5px;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--primary-blue);
+    border: none;
+    color: #fff;
+}
+.btn-primary:hover {
+    background-color: var(--dark-blue-hover);
+}
+
+/* Buttons with Red Shades */
+.btn-danger {
+    background-color: var(--primary-red);
+    border: none;
+    color: #fff;
+}
+.btn-danger:hover {
+    background-color: var(--secondary-red);
+}
+
+/* Images */
+.foto {
+height: 320px;
+}
+
+/* About Section */
+#about p,
+#certifications p,
+#projects p,
+#contact p {
+    font-size: 1.1rem;
+    color: var(--dark-gray);
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+#certifications p {
+    color: var(--medium-gray);
+    font-size: 1rem;
+}
+
+/* Skills Section */
+.progress {
+    height: 30px;
+}
+.progress-bar {
+    font-size: 1rem;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* Certifications Section */
+#certifications h5 {
+    font-size: var(--font-small);
+}
+
+/* Projects Section */
+#projects h5 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+#contact .form-label {
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: var(--footer-dark);
+    color: #fff;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .social-icons a {
+    transition: color 0.3s;
+    color: #fff;
+}
+
+footer .social-icons a:hover {
+    color: var(--primary-blue);
+}
